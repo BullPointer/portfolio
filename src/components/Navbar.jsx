@@ -1,12 +1,15 @@
 /* eslint-disable react/prop-types */
 import { Icon } from "@iconify/react";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const listStyling =
   "md:p-4 mx-2 font-semibold text-lg hover:font-bold hover:text-orange-500 cursor-pointer text-white";
 
 const NavbarItem = ({ item, styling }) => (
-  <li className={`${listStyling} ${styling}`}>{item}</li>
+  <Link to={item.toLowerCase()} offset={0} smooth={true} duration={500} activeClass="active">
+    <li className={`${listStyling} ${styling}`}>{item}</li>
+  </Link>
 );
 
 const Navbar = () => {
