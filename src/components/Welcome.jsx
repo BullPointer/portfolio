@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
 import Img from "../assets/portfolio_img.jpg";
 
 const Welcome = () => {
@@ -21,16 +22,20 @@ const Welcome = () => {
             Hi, I'm Raphael Madu. A passionate and enthusiatic React Developer.
           </div>
           <div className="flex flex-row justify-center md:justify-start items-center px-8 py-2 gap-x-6">
-            <Icon
-              className="cursor-pointer text-pink-900"
-              icon="skill-icons:linkedin"
-              fontSize={30}
-            />
-            <Icon
-              className="cursor-pointer"
-              icon="devicon:github"
-              fontSize={30}
-            />
+            <Link to={"https://linkedin.com/in/youngminters/"} target="_blank">
+              <Icon
+                className="cursor-pointer text-pink-900"
+                icon="skill-icons:linkedin"
+                fontSize={30}
+              />
+            </Link>
+            <Link to={"https://github.com/BullPointer/"} target="_blank">
+              <Icon
+                className="cursor-pointer"
+                icon="devicon:github"
+                fontSize={30}
+              />
+            </Link>
           </div>
         </div>
         <div className="md:block hidden  w-60 h-60">
