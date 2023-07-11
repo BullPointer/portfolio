@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Img1 from "../assets/website1.png";
 import Img2 from "../assets/website2.png";
 import Img3 from "../assets/website3.png";
+import Img4 from "../assets/website4.png";
 
 const ProjectItem = ({ img, title, note, code, demo }) => {
   return (
@@ -89,6 +90,15 @@ const Projects = () => {
           }
           code={"swapmute"}
           demo={"swapmute"}
+        />
+        <ProjectItem
+          img={Img4}
+          title={"Mayo Hospital"}
+          note={
+            "Mayo Hospital is mayoclinic.org's clone website I built, together with some added features like Blockchain technology"
+          }
+          code={"mayo-hospital"}
+          demo={"mayo-hospital"}
         />
       </div>
       <div></div>
