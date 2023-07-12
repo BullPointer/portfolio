@@ -95,7 +95,7 @@ const Projects = () => {
           img={Img4}
           title={"Mayo Hospital"}
           note={
-            "Mayo Hospital is mayoclinic.org's clone website I built, together with some added features like Blockchain technology"
+            "Mayo Hospital is mayoclinic.org's clone website I built, together with some added features in Blockchain technology"
           }
           code={"mayo-hospital"}
           demo={"mayo-hospital"}
