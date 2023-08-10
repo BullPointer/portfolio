@@ -16,7 +16,7 @@ const Welcome = () => {
         </div>
         <div className="max-auto md:w-[45%] md:m-0 p-2 md:py-10 text-center md:text-left">
           <h1 className="text-2xl md:text-4xl p-2 md:px-8 py-2 font-bold text-red-300">
-            Front-End React Developer
+            Full Stack(MERN) Developer
           </h1>
           <div className="text-xl p-2 md:px-8 py-2 font-semibold text-white">
             Hi, I'm Raphael Madu. A passionate and enthusiatic React Developer.
@@ -55,8 +55,12 @@ const Welcome = () => {
           <Icon icon="vscode-icons:file-type-css" fontSize={30} />
           <Icon icon="logos:javascript" fontSize={30} />
           <Icon icon="devicon:react" fontSize={30} />
+          <Icon icon="skill-icons:expressjs-dark" fontSize={30} />
+          <Icon icon="skill-icons:nodejs-dark" fontSize={30} />
+          <Icon icon="skill-icons:mongodb" fontSize={30} />
           <Icon icon="logos:tailwindcss-icon" fontSize={30} />
           <Icon icon="vscode-icons:folder-type-light-sass" fontSize={30} />
+          <Icon icon="vscode-icons:file-type-typescript-official" fontSize={30} />
         </div>
       </div>
     </div>
