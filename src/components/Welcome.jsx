@@ -19,7 +19,7 @@ const Welcome = () => {
             Full Stack(MERN) Developer
           </h1>
           <div className="text-xl p-2 md:px-8 py-2 font-semibold text-white">
-            Hi, I'm Raphael Madu. A passionate and enthusiatic React Developer.
+            Hi, I'm Raphael Madu. A passionate and enthusiatic Full-Stack Developer.
           </div>
           <div className="flex flex-row justify-center md:justify-start items-center px-8 py-2 gap-x-6">
             <Link to={"https://linkedin.com/in/youngminters/"} target="_blank">
