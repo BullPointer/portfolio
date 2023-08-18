@@ -1,12 +1,7 @@
 import { useEffect } from "react";
-import {
-  Welcome,
-  Navbar,
-  About,
-  Projects,
-  Contact,
-  Footer,
-} from "./components";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import { NotfoundPage } from "./components";
 
 const App = () => {
   const handleScrollTo = () =>
@@ -20,14 +15,11 @@ const App = () => {
 
   return (
     <>
-      <div id="home" className="gradient-bg-welcome h-auto md:h-screen">
-        <Navbar />
-        <Welcome />
-      </div>
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="*" element={<NotfoundPage /> } />
+        <Route path="/" element={<Home /> } />
+        <Route path="/:page" element={<Home /> } />
+      </Routes>
     </>
   );
 };

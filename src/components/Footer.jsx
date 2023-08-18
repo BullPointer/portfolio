@@ -10,7 +10,7 @@ const Footer = () => {
           <Link to={"https://github.com/BullPointer/"} target="_blank">
             <Icon icon="akar-icons:github-fill" fontSize={25} />
           </Link>
-          <Link to={"https://linkedin.com/in/youngminters/"} target="_blank">
+          <Link to={"https://linkedin.com/in/youngsparrow20/"} target="_blank">
             <Icon icon="devicon-plain:linkedin" fontSize={25} />
           </Link>
           <Link to={"https://twitter.com/Jakewoft"} target="_blank">
